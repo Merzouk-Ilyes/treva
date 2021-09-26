@@ -1,0 +1,71 @@
+@import "./const.sass"
+.home
+    display: relative
+    height: 70vh
+    margin: 3rem 6rem 0 5rem
+
+.home-nav
+    display: flex
+    justify-content: space-between
+
+.auth-btns
+    &>:nth-child(1)
+        background-color: transparent
+        margin-right: 3rem
+        border: none
+        padding: .6rem 1rem
+        cursor: pointer
+    &>:nth-child(2)
+        background-color: $color-second
+        border: 1px solid $color-second
+        border-radius: 1.5rem
+        padding: .6rem 1rem
+        color: white
+        cursor: pointer
+
+.home-body
+    position: absolute
+    top: 40%
+    left: 50%
+    transform: translate(-50%,-50%)
+    // display: flex
+    // flex-direction: column
+    // justify-content: center
+    // align-items: center
+    // background-color: pink
+    // padding: 2rem 2rem 0 2rem
+    text-align: center
+    h1
+        font-family: $font-title
+        font-size: 3rem
+        margin-bottom: .5rem
+        letter-spacing: 2px
+    p
+        font-size: 1rem
+        padding: .5rem
+        margin-bottom: 2rem
+        letter-spacing: 1px
+
+.body-btns
+    &>:nth-child(1)
+        background-color: $color-main
+        border: 1px solid $color-main
+        padding: .8rem 2.2rem
+        margin-right: 3rem
+        font-size: 1.2rem
+        font-weight: bold
+        color: white
+        border-radius: .6rem
+        cursor: pointer
+
+    &>:nth-child(2)
+        background-color: white
+        border: 3px solid $color-main
+        padding: .8rem 2.2rem
+        font-size: 1.2rem
+        font-weight: bold
+        color: $color-main
+        border-radius: .6rem
+        cursor: pointer
+        &:hover
+            background-color: #F2F3F4
