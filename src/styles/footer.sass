@@ -1,0 +1,45 @@
+@import "./const.sass"
+.sub
+    height: 80vh
+.sub-title
+    display: flex
+    flex-direction: column
+    text-align: center
+    &>:nth-child(1)
+        margin-bottom: 1.5rem
+        font-family: $font-title
+        font-size: 3rem
+   
+    .sub-input
+        padding: 4rem 0 10rem 0
+        margin: 0 4rem
+        border-bottom: 1px solid grey
+        input
+            padding: 1rem 10rem
+            background-color: #E5E7E9
+            border: none 
+            border-top-left-radius: .5rem    
+            border-bottom-left-radius: .5rem    
+        button
+            border: none
+            padding: 1rem
+            border-top-right-radius: .5rem    
+            border-bottom-right-radius: .5rem 
+            background-color:#130242
+            color: white
+            cursor: pointer
+
+
+.footer
+    height: 45vh
+    display: grid
+    grid-template-columns: repeat(4,1fr)
+    margin: 0 4rem
+    .footer-list1,.footer-list2,  .footer-list3
+        h3
+              font-family: $font-title
+              margin-bottom: 1rem
+              font-size: 2rem
+        p
+            margin-bottom: .4rem
+            cursor: pointer

@@ -4,7 +4,7 @@ import Work from "./components/Work";
 import Footer from "./components/Footer";
 import Sub from "./components/Sub";
 import bg from "./assets/bg.svg";
-import './app.sass'
+import "./app.sass";
 
 function App() {
   return (
@@ -20,9 +20,10 @@ function App() {
       {/* WORK */}
       <Work />
       {/* SUBSCRIBE */}
-      <Sub/>
+      <Sub />
       {/* FOOTER */}
       <Footer />
+      
     </div>
   );
 }
